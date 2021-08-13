@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Day 2 Assignments</title>
+    </head>
+    <body>
+        <table border="1" cellspacing="0">
+            <thead>
+               <tr> 
+                   <th>Name</th>
+                    <th>Subject</th>    
+                    <th>City</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amar</td>
+                    <td>Science</td>
+                    <td>Jaipur</td>
+                    <td>84</td>
+                </tr>
+                <tr>
+                    <td>Lovely</td>
+                    <td>Commerce</td>
+                    <td>Delhi</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>Ravi</td>
+                    <td>Science</td>
+                    <td>Ajmer</td>
+                    <td>85</td>
+                </tr>
+                    
+            </tbody>
+        </table>
 
-<head>
-<title></title>
-</head>
+        <br>
+        <br>
+            <form>
+                <input type="text" placeholder="Enter name" required/>
+                
+                <span>DOB:</span><input type="date" required/>
+                
+                <input type="text" placeholder="Enter city" required/>
+                <br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        
 
-<body>
-<h1>This is a head line.</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt tenetur minima natus quidem delectus reprehenderit praesentium quia exercitationem blanditiis mollitia voluptate quaerat similique dolores eligendi sit a quis consequuntur neque, vitae in, corporis corrupti cumque aspernatur, porro? Debitis culpa quis explicabo perspiciatis eos, et quas libero, eum, itaque, corporis animi!</p>
-<img style="width: 200px ;height: 200px" src="pic%20(1).jpg">
-<img style="width: 200px ;height: 200px" src="pic%20(2).jpg">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae harum asperiores laborum. Architecto error, voluptate quod ab, accusantium repudiandae minus necessitatibus dolorem dolorum eos nesciunt non illum ipsa facere fuga molestias suscipit rerum vitae officiis nulla aperiam corporis doloribus beatae culpa, earum. Aperiam cum natus similique, aut, libero cupiditate distinctio veniam eaque non neque deserunt amet consequatur at pariatur suscipit.</p>
-<img style="width: 200px ;height: 200px" src="pic%20(5).jpg">
-<img style="width: 200px ;height: 200px" src="pic%20(8).jpg">
-<img style="width: 200px ;height: 200px" src="pic%20(9).jpg">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab soluta nam veritatis sit laudantium, amet perspiciatis, placeat labore ut, eveniet. Nemo dolorem accusantium molestiae magnam quos enim dignissimos nisi nobis atque. Blanditiis eaque alias nisi animi explicabo veniam quod.</p>
-</body>
-
+    </body>
 </html>
